@@ -3,6 +3,10 @@ plugins {
     id 'application'
 }
 
+application {
+    mainClass = 'it.unibz.inf.pp.clash.DesktopLauncher'
+}
+
 java {
     sourceCompatibility = JavaVersion.VERSION_21
 }
